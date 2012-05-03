@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1" android:layout_gravity="top|bottom|left|right">
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/linearLayout1" android:orientation="vertical" android:weightSum="1">
+        <EditText android:layout_height="280dp" android:layout_gravity="top|left|right" android:layout_width="match_parent" android:layout_weight="0.99" android:id="@+id/resultEditText"></EditText>
+        <Button android:layout_width="match_parent" android:layout_height="78dp" android:text="@string/run_button" android:id="@+id/runButton" android:layout_gravity="bottom|left|right"></Button>
+    </LinearLayout>
+</LinearLayout>
